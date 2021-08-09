@@ -1,46 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
+   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}"-->
     <title>Portfolio</title>
+    <!--link rel="stylesheet" href="style.css"-->
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>My Portfolio </h1>
-    
-    <!--header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-        <div class="container">
-          <a class="navbar-brand mr-4" href="/">This is my Portfolio site</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="#">Home</a>
-              <a class="nav-item nav-link" href="#">About</a>
-            </div>
-           
-            <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Articles</a>
-                    <a class="nav-item nav-link" href="#">Projects</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-               
-            </div>
-          </div>
+    <div class="topnav">
+        <a class="active" href="/MyPortfolio">Home</a>
+        <a href="/MyPortfolio/project.html">Projects</a> 
+        <a href="/MyPortfolio/article.html">Articles</a>
+        <a href="/MyPortfolio/contact.html">Contact</a>
+        <a href="/MyPortfolio/about.html">Resume</a>
+    </div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:60px">I am Tony George</h1>
+            <p style="font-size:25px">And I'm a Software Engineer</p>    
+            <div align="center">
+                <a href="https://twitter.com/home" class="fa fa-twitter" target="_blank" rel="noopener noreferrer" ></a> 
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a> 
+                <a href="https://www.youtube.com/channel/UCMHfIt-YOGn-2rhNDuO_gKw" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+            </div> 
+
         </div>
-      </nav>
-    </header-->
-    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script-->
+            <footer class="footer-align">
+                Photo by <a class="col-muted" href="https://unsplash.com/@jstrippa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Harrison</a> on <a class="col-muted" href="https://unsplash.com/s/photos/programming-language?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </footer>
+        </div>
+               
+
+    <section class="aboutme-text">
+        <h1>About Me</h1>
+        <img src='images/tony.jpg' width="300" height="350" align="right">
+        <p> Hello! My name is Tony and i love building softwares that matters most to others. My
+        interest in programming started back in 2006 with Mainframes. Later i got introduced to Python
+        for automation and data analysis. Since then i started getting closer and closer to Python and its data analysis libraries.</p>
+
+        <p>I love working in AI projects and did a bunch of them. 
+           I believe that Mainframes modernization can be done using AI.
+           Recently i did a project for created API's from Mainframe IDMS system. 
+           Natural Language Processing is my most interesting AI field. 
+        </p>
+        <p> I've had the previlage of working with start up's, huge corporations and mid-sized IT companies.
+        These day's i am focusing more on helping my clients modernize there mainframe assests with the help of
+        AI and API's. Some of the technologies that i have worked recently.</p>
+        <div>
+            <h2>Skills</h2>
+            <img style= "border-radius: 50px;" src="images/python-logo.png" alt="python logo" width="150" height="90">
+            <img style= "border-radius: 50px;" src="images/TF_FullColor_PrimaryHorizontal.jpg" alt="tensorflow logo" width="160" height="90">
+            <img style= "border-radius: 10px;" src="images/flask-logo.png" alt="flask logo" width="150" height="90">
+            <img style= "border-radius: 20px;" src="images/css.png" alt="css logo" width="130" height="90">
+            <img style= "border-radius: 20px;" src="images/html.png" alt="html logo" width="130" height="90">
+            <p></p>
+            <h3>Mainframe Skills</h3>
+            <a>Cobol, JCL, IDMS/ADSO, CICS/DB2 </a>
+        </div>
+        <h2>Education</h2>  
+        <div>
+                <!--a href="Coursera 89HTKWN39WYD.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="udacity.svg" width="200" height="60" lign="right"></a>
+                <p> Natual Language Processing Nanodegree - Udacity</p-->
+            
+                <a href="images/Coursera 89HTKWN39WYD.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Coursera_logo.PNG" width="200" height="60" lign="top"></a>
+                <p> Tensorflow Deep Learning Developer - Coursera </p>
+            
+             
+                <img src="images/logo_kerala.png" width="100" height="60" lign="top"></a>
+                <p> University Of Kerala: Bachelor Of Science in Physics </p>
+
+        </div>
+    </section>
+            <div align="center">
+                <a href="https://twitter.com/home" class="fa fa-twitter" target="_blank" rel="noopener noreferrer" ></a> 
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a> 
+                <a href="https://www.youtube.com/channel/UCMHfIt-YOGn-2rhNDuO_gKw" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+            </div> 
 
 </body>
 </html>
